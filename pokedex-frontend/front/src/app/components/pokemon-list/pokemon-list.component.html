@@ -1,0 +1,6 @@
+<div>
+  <h1>Pokédex</h1>
+  <ul>
+      <li *ngFor="let pokemon of pokemons$ | async">{{ pokemon.name }}</li>
+  </ul>
+</div>
